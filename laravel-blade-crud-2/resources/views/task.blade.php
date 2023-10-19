@@ -7,7 +7,9 @@
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col col-xl-10">
                     
-                    <h1>Todo list</h1>
+                    <div class="text-center fs-1">
+                        <h1>Todo list</h1>
+                    </div>
                     <div class="card">
                         <div class="card-body p-5">
 
@@ -15,7 +17,7 @@
                                 <div class="form-outline flex-fill">
                                     <input type="text" id="form2" class="form-control" placeholder="insira uma tarefa"/>
                                 </div>
-                                <button type="submit" href="{{ route('task.create')}}" class="btn btn-info ms-2">Add</button>
+                                <button type="submit" href="" class="btn btn-info ms-2">Add</button>
                             </form>
 
                             <!-- Tabs navs -->

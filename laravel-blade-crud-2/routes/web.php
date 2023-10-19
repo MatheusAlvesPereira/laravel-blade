@@ -19,9 +19,4 @@ use App\Http\Controllers\UserController;
 Route::get('/', function () {
     return view('task');
 });
-
-Route::put('/task/{id}', [TaskController::class, 'update']);
-
-Route::delete('/task/{task}', function(Request $request){
-    
-});
+Route::resource('task', TaskController::class);
